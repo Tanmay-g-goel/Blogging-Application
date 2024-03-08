@@ -1,0 +1,11 @@
+package com.tanmay.blog.payloads;
+
+public class PostDto {
+
+	
+	private String title;
+	
+	private String content;
+	
+	
+}

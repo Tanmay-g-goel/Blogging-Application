@@ -1,0 +1,25 @@
+package com.tanmay.blog.services;
+
+import java.util.List;
+
+import com.tanmay.blog.entities.Post;
+import com.tanmay.blog.payloads.PostDto;
+
+public interface PostService {
+
+	//create
+	
+	Post createPost(PostDto postDto, Integer userId, Integer categoryId);
+	
+	Post updatePost(PostDto postDto, Integer postId);
+	
+	void deletePost(Integer postId);
+	
+	List<Post> getAllPost();
+	
+	Post getPostById(Integer postId);
+	
+	List<Post> getPostByCategory(Integer categoryId);
+	
+	List<Post> getPostByUser(Integer userId);
+}

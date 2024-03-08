@@ -1,0 +1,5 @@
+package com.tanmay.blog.controllers;
+
+public class PostController {
+
+}
